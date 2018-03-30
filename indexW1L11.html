@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app='MsgApp'>
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js" charset="utf-8"></script>
+    <script src="appW1L11.js" charset="utf-8"></script>
+    <title>Exp and inter</title>
+  </head>
+  <body>
+<h1>Exp and Inter</h1>
+<div ng-controller='MsgController'>
+  {{name}} has a message for you: <br>
+  {{sayMessage()}}
+<div>
+<button ng-click="feedYaakov()">Feed Yaakov</button>
+{{stateOfBeing}}<br>
+<img ng-src="images/SEPI_logo_{{stateOfBeing}}.png" alt="">
+</div>
+</div>
+  </body>
+</html>
